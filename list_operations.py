@@ -68,7 +68,7 @@ class list_operations:
     def final_sorting(self):
         originals = self.remove_duplicates()
         originals.sort()
-        print(f"\nRemoved duplicates from list and sorted in ascending order:\n\n{originals}")
+        print(f"\nRemoved  from list and sorted in ascending order:\n\n{originals}")
         originals.sort(reverse=True)
         print(f"\nRemoved duplicates from list and sorted in descending order:\n\n{originals}")
 
